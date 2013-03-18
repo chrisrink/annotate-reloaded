@@ -1,0 +1,14 @@
+# Veeva rsync filter
+
+- /META-INF
+- /bin/
+- /docs/
+- /antlib/
+- /java/
+- /welcome3/
+- /build/
+- /cgi-bin/
+- /obfusc/
+- /util/
+
+
