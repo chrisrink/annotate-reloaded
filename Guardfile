@@ -7,8 +7,8 @@ guard 'jshint-node', :config => 'jshint-config.json' do
 end
 
 guard 'remote-sync',
-    :source => "./src/main/webapp/annotate", 
-    :destination => "/usr/local/apache-tomcat/6.0.32/webapps/annotate/", 
+    :source => "./src/main/webapp/annotate/", 
+    :destination => "/usr/local/apache-tomcat/6.0.32/webapps/annotate/annotate", 
     :user => 'root',
     :remote_address => 'my.veevavault.com',
     :remote_port => 2222,
